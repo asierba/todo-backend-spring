@@ -13,7 +13,7 @@ public class DemoApplication {
 	@RequestMapping("/")
 	@ResponseBody
 	String home() {
-		return "Hello springboot from heroku!! :)";
+		return "Hello springboot from heroku!! :) CHANGED";
 	}
 
 
